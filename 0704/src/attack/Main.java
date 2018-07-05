@@ -6,15 +6,14 @@ public class Main {
 
 		// 3개의 클래스의 공격하는 메소드를 호출해보기
 
-		Attack attack = new Attack();
-		attack.attack();
-		attack = new Terran();
+	//	Attack attack = new Attack();
+		//attack.attack();
+	Attack attack = new Terran();
 		attack.attack();
 		attack = new Zerg();
 		attack.attack();
 		attack = new Protoss();
-		attack.attack();
-
+		attack.attack();//코드는 같지만 부르는 값이 다름 -다형성
 		// 유사한 역할을 하는 메소드들의 이름이 서로 다르면 기억해야 할
 		// 메소드의 개수가 늘어난다.
 		// 유사한 역할을 수행하는 메소드들의 이름을 동일하게 한다.
